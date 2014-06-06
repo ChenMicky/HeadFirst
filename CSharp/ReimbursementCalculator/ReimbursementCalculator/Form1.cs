@@ -33,8 +33,8 @@ namespace ReimbursementCalculator
             }
             else
             {
-                milesTraveled = endingMileage -= startingMileage;
-                amountOwed = milesTraveled *= reimburseRate;
+                milesTraveled = endingMileage - startingMileage;
+                amountOwed = milesTraveled * reimburseRate;
                 label4.Text = "$" + amountOwed;
             }
         }
