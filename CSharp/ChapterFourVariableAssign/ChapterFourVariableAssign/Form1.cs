@@ -21,6 +21,13 @@ namespace ChapterFourVariableAssign
         {
             decimal myDecimalValue = 10;
             int myIntValue = (int) myDecimalValue;
+            int myInt = 10;
+            byte myByte = (byte)myInt;
+            double myDouble = (double)myByte;
+            //bool myBool = (bool)myDouble;
+            string myString = "false";
+            //myBool = (bool)myString;
+
         }
     }
 }
