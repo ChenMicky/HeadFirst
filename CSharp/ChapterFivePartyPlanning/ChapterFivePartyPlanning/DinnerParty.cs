@@ -8,7 +8,8 @@ namespace ChapterFivePartyPlanning
 {
     class DinnerParty
     {
-        public int NumberOfPeople;
+        private int numberOfPeople;
+        public int NumberOfPeople { get { return numberOfPeople; } set { numberOfPeople = value;} }
         public decimal CostOfBeveragesPerPerson, CostOfDecorations;
         
         public const int CostOfFoodPerPerson =25;
